@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<interview>
+	<description>Erstes Interview</description>
+	
+	<block>
+		<id>b001</id>
+		<question>
+			<id>q001</id>
+			<text>Wie geht es dir</text>
+		</question>
+		<answer>
+			<id>a001</id>
+			<text>Mir geht es gut</text>
+		</answer>
+		<answer>		
+			<id>a002</id>
+			<text>Mir geht es schlecht</text>
+		</answer>	
+	</block>
+		
+	<block>
+		<id>b002</id>
+		<question>
+			<id>q002</id>
+			<text>Wie heißt du</text>
+		</question>
+		<answer>
+			<id>a003</id>
+			<text>Ich heiße NAO</text>
+		</answer>
+	</block>
+		
+</interview>
+			
