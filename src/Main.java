@@ -27,6 +27,17 @@ public class Main {
     int input_ID = Integer.parseInt(System.console().readLine());
     CurrentInterview = Interview.FincInterview(input_ID, AlleInterviews);
 
+    for(int i = 1; i != CurrentInterview.get_Members(); ++i)
+    {
+        System.out.print("IP-Adresse für Roboter " + String.valueOf(i) + " : ");
+        String input_IP = System.console().readLine();
+        Robots.add(new Robot(input_IP));
+    }
+
+        System.out.println("Das Interview ist bereit! Enter drücken um zu starten!");
+        System.console().readLine();
+
+        CurrentInterview.
     }
 
 

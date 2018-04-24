@@ -1,54 +1,45 @@
 package Interview;
 
+import BusinessLogic.Interview.BoInterview;
+
 import java.util.List;
 
 public class Interview {
 
     // Instance Vars
-    private String _Path;
-    private int _ID;
-    private String _Description;
-    private String _Name;
+    public BoInterview InterviewBusinessObject;
     // Instance Vars
 
-    // Getter/ Setter
-    public String get_Path() {
-        return _Path;
-    }
-
-    private void set_Path(String _Path) {
-        this._Path = _Path;
-        // Neues Initialize der Klasse!
-    }
-
-    public int get_ID() {
-        return _ID;
-    }
-
-    public String get_Description() {
-        return _Description;
-    }
-    public String get_Name() {
-        return _Name;
-    }
-    // Getter/ Setter
-
     // Functions
+
     public  Interview(String Path)
     {
-
+    Initialize(Path);
     }
 
-    private void Initialize()
+    private void Initialize(String Path)
     {
-        // XML-Datei auslesen
+        InterviewBusinessObject = new BoInterview(Path);
     }
 
-
-    public void print()
+    // Playback Funktionen
+    public void StartInterview()
     {
 
     }
+    public void PauseInterview()
+    {
+
+    }
+    // Playback Funktionen
+
+    // Print Funktionen
+    public String GetInterviewText()
+    {
+        return InterviewBusinessObject.GetInterviewText();
+    }
+    // Print Funktionen
+
     // Functions
 
 
@@ -59,7 +50,7 @@ public class Interview {
     return null;
     }
 
-    public static Interview FincInterview(int ID, List<Interview> AlleInterviews)
+    public static Interview FindInterview(int ID, List<Interview> AlleInterviews)
     {
         return new Interview("");
     }
