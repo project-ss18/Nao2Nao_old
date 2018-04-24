@@ -38,6 +38,10 @@ public class Interview {
     {
         return InterviewBusinessObject.GetInterviewText();
     }
+    public String GetInterviewOverview()
+    {
+        return "";
+    }
     // Print Funktionen
 
     // Functions
