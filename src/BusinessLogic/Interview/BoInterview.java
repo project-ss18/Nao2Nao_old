@@ -18,29 +18,33 @@ public class BoInterview {
 
 
     // Getter/ Setter
-    public String get_Path() {
+    public String get_Path()
+    {
         return _Path;
     }
 
-    private void set_Path(String _Path) {
+    private void set_Path(String _Path)
+    {
         this._Path = _Path; // Neues Initialize der Klasse!
     }
 
-    public int get_ID() {
+    public int get_ID()
+    {
         return _ID;
     }
-    public String get_Description() {
+    public String get_Description()
+    {
         return _Description;
     }
-    public String get_Name() {
+    public String get_Name()
+    {
         return _Name;
     }
-    public int get_MemberCount() {
+    public int get_MemberCount()
+    {
         return _MemberCount;
     }
     // Getter/ Setter
-
-
 
     public BoInterview(String Path)
     {

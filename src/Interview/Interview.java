@@ -14,7 +14,7 @@ public class Interview {
 
     public  Interview(String Path)
     {
-    Initialize(Path);
+        Initialize(Path);
     }
 
     private void Initialize(String Path)
@@ -47,11 +47,10 @@ public class Interview {
     // Functions
 
 
-
     // Static Functions
     public static List<Interview> GetAllInterviews()
     {
-    return null;
+        return null;
     }
 
     public static Interview FindInterview(int ID, List<Interview> AlleInterviews)

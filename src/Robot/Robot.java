@@ -8,20 +8,24 @@ public class Robot {
     // Instance Vars
 
     // Getter/ Setter
-    public String get_IPAdress() {
+    public String get_IPAdress()
+    {
         return _IPAdress;
     }
 
-    public void set_IPAdress(String _IPAdress) {
+    public void set_IPAdress(String _IPAdress)
+    {
         this._IPAdress = _IPAdress;
         // Connect with this IP-Adress
     }
 
-    public int get_ID() {
+    public int get_ID()
+    {
         return _ID;
     }
 
-    private void set_ID(int _ID) {
+    private void set_ID(int _ID)
+    {
         this._ID = _ID;
     }
     // Getter/ Setter
