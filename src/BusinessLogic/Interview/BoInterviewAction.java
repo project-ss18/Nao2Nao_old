@@ -10,5 +10,6 @@ public class BoInterviewAction {
     private int ActionOrderID;
     private String ActionText;
     private Object ActionGesture;
+    private ActionType TypeofAction;
     // Attribute
 }
