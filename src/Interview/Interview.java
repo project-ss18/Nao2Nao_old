@@ -57,7 +57,7 @@ public class Interview {
     {
         return new Interview("");
     }
-    public static Interview FincInterview(String Name, List<Interview> AlleInterviews)
+    public static Interview FindInterview(String Name, List<Interview> AlleInterviews)
     {
         return new Interview("");
     }

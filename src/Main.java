@@ -24,7 +24,7 @@ public class Main {
         }
 
         int input_ID = Integer.parseInt(System.console().readLine());
-        CurrentInterview = Interview.FincInterview(input_ID, AlleInterviews);
+        CurrentInterview = Interview.FindInterview(input_ID, AlleInterviews);
 
         for(int i = 1; i != CurrentInterview.InterviewBusinessObject.get_MemberCount(); ++i)
         {
